@@ -7,12 +7,15 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFrame;
 
+import juego_vava.control.Teclado;
+
 public class Juego extends Canvas implements Runnable {
 
     private static final int ALTO = 600;
     private static final int ANCHO = 800;
     private static volatile boolean enFuncionamiento = false;
     private static JFrame ventana;
+    private static Teclado teclado;
 
     private static Thread thread;
     private static final String NOMBRE = "juego";
@@ -99,12 +102,11 @@ public class Juego extends Canvas implements Runnable {
    
   }
 
-  public int obtenAncho(){
-    return ancho;
+       
   }
 
   
   
 
 
-}
+
