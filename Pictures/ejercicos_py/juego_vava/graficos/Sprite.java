@@ -6,6 +6,7 @@ public final class Sprite {
     private int x;
     private int y;
     public int[]pixeles;
+    public Sprite(final int lado , final int columna, final int fila)
 
 
 
