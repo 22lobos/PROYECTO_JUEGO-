@@ -37,7 +37,7 @@ public final class Teclado implements KeyListener{
     @Override
     public void keyReleased(KeyEvent e) {
       
-        throw new UnsupportedOperationException("Unimplemented method 'keyReleased'");
+         teclas[e.getKeyCode()]= false;
     }
 
     
