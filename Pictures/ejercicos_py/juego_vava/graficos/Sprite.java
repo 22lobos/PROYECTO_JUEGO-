@@ -14,6 +14,12 @@ public final class Sprite {
         this.x = columna * lado;
         this.y = fila * lado;
 
+        for(int y = 0 ; y < lado; y++){
+            for (int x = 0; x< lado; x++){
+                pixeles[x + y * lado]
+            }
+        }
+
 
 
 
