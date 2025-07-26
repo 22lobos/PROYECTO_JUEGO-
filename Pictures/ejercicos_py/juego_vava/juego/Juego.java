@@ -96,5 +96,15 @@ public class Juego extends Canvas implements Runnable {
                 referenciaContador = System.nanoTime();
             }
         }
-    }
+   
+  }
+
+  public int obtenAncho(){
+    return ancho;
+  }
+
+  
+  
+
+
 }
