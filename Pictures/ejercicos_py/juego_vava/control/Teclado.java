@@ -27,7 +27,7 @@ public final class Teclado implements KeyListener{
     @Override
     public void keyTyped(KeyEvent e) {
         
-        throw new UnsupportedOperationException("Unimplemented method 'keyTyped'");
+        
     }
     @Override
     public void keyPressed(KeyEvent e) {
