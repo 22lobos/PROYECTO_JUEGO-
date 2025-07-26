@@ -15,7 +15,8 @@ public class HojaSprites {
         pixeles = new int[ancho * alto ];
 
         BufferedImage imagen = ImageIO.read(HojaSprites.class.getResourceAsStream(ruta));
-        
+
+        imagen.getRGB(0, 0,ancho,alto, pixeles,0,ancho);
 
 
     }
