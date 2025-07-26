@@ -5,22 +5,33 @@ import java.awt.event.KeyListener;
 
 public final class Teclado implements KeyListener{
 
+
+    private final static int numeroTaclas = 120;
+    private boolean[]teclas = new boolean [numeroTaclas];
+
+    public boolean arriba;
+    public boolean abajo;
+    public boolean izquierda;
+    public boolean derecha;
+    
+
+
+
     @Override
     public void keyTyped(KeyEvent e) {
         
         throw new UnsupportedOperationException("Unimplemented method 'keyTyped'");
     }
-
     @Override
     public void keyPressed(KeyEvent e) {
         
         throw new UnsupportedOperationException("Unimplemented method 'keyPressed'");
     }
-
     @Override
     public void keyReleased(KeyEvent e) {
-        
+      
         throw new UnsupportedOperationException("Unimplemented method 'keyReleased'");
     }
+
     
 }
