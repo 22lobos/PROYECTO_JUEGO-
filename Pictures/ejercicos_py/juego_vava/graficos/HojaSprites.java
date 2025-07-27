@@ -9,6 +9,14 @@ public class HojaSprites {
     private final int ancho;
     private final int alto ;
     public final int[] pixeles;
+    //coleccion hoja de sprites
+    public static HojaSprites desierto = new HojaSprites("/juego_vava/texturas/gratis.png", 256 ,256);
+
+
+
+    //fin de coleccion
+
+
     public HojaSprites(final String ruta, final int ancho, final int alto ){
         this.ancho = ancho;
         this.alto = alto;
