@@ -13,7 +13,30 @@ public final  class Pantalla {
         this.alto = alto;
 
         pixeles = new int[ancho * alto];
-        
+
+    }
+
+    public void limpiar(){
+        for (int i = 0; i< pixeles.length; i++){
+            pixeles[i] = 0;
+
+        }
+
+    }
+    public void mostral(final int compensacionX, final int compensacionY){
+        for (int y = 0; y < alto; y++){
+            int posicionY = y + compensacionY;
+            if (posicionY < 0 || posicionY >= alto){
+                continue;
+            }
+
+            for(int x = 0; x < ancho; x++){
+                int posicionX = x + compensacionX;
+
+
+
+            }
+        }
     }
 
 
